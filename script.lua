@@ -762,9 +762,13 @@ createButton(HomePage, "Animasyon", "Animasyon scripti", function()
 end)
 
 createCategory(HomePage, "Code Sniper", "🎫")
-createButton(HomePage, "Paralı Code Sniper", "Premium code sniper aracı", function()
+createButton(HomePage, "Paralı Code Sniper #1", "İlk Alınan Paralı Code Snipper(Erdem İçin)", function()
     getgenv().SCRIPT_KEY = "56bb1c80-d398-44fc-a972-2cff2ef22d0e"
     loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/5562301401bab647e28680f023baceae0e59d61c0c2991d70167ae19b740c227/download"))()
+end)
+createButton(HomePage, "Paralı Code Sniper #2", "İkinci Alınan Paralı Code Snipper(Ömer  İçin)", function()
+getgenv().SCRIPT_KEY = "b0943e15-20c9-402b-80c0-d7b98ada68f7"
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/5562301401bab647e28680f023baceae0e59d61c0c2991d70167ae19b740c227/download"))()
 end)
 createButton(HomePage, "Ücretsiz Code Sniper 1", "Bedava code sniper #1", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/pulsvethedev2/Ace-sniper/refs/heads/main/YUIHUB-CODE-REDEEMER.txt"))()
